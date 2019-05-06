@@ -23,6 +23,8 @@ setup(
     version=VERSION,
     description=DESCRIPTION,
     author='Will Rubel',
+    author_email='willrubel@gmail.com',
+    url='https://github.com/rubelw/r53_ptr_vpc_associator',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     platforms=["any"],
