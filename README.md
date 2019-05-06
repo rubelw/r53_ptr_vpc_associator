@@ -2,6 +2,42 @@
 
 This is a program to association reverse zones to vpcs.  It is associated with https://github.com/aws-samples/aws-lambda-ddns-function
 
+Prerequisites
+=============
+
+It is highly recommended you run this package within a python virtual environment, so
+you do not affect your desktop/laptop.  To setup a python virtual environment, you should make 
+sure you have python3 installed, and do the following.
+
+NOTE:  Why am I doing this.  With a python virtual environment, you can create as
+many virtual environmentsa as you would like, and with different python versions.  These
+virtual environments are isolated in a directory, and will not affect anything else on
+your computer.  This way, you can test and ensure things will work.
+
+First, figure out the path to the python version installed on your machine.
+
+    which python3
+    /usr/local/bin/python3
+    
+Next, you should pip install the virtualenv package
+
+    pip install virtualenv
+    
+Next, you should create a directory, where you are going to keep the virtual environments,
+and create a new virtualenv by using the path to the python version you found above.
+
+    mkdir ~/virtual_environments
+    cd virtual_environments
+    virtualenv -p /usr/local/bin/python3 my_python3_virtualenv
+    
+To activate the virtual environment
+
+    source ~/virtual_environments/my_python3_virutalenv/bin/activate
+    
+NOTE:  To deactivate the virtual environment
+
+    deactivate
+
 Installation
 ============
 
