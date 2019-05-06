@@ -1,0 +1,15 @@
+[xml]
+output=test-reports/coverage-latest.xml
+
+[report]
+exclude_lines =
+    pragma: no cover
+omit=
+    *.pyc
+    .pytest_cache
+    .tox
+    .tox/*
+    test/
+    test/*
+    htmlcov
+    *site-package*
